@@ -1,0 +1,15 @@
+micronaut:
+  server:
+    cors:
+      enabled: true
+    port: 8081
+  url: http://localhost:8000
+  application:
+    name: dev
+  datasource:
+    url: http://localhost:8000
+    domain: local
+    username: user
+    password: 'password'
+
+

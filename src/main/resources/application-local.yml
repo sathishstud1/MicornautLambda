@@ -1,0 +1,11 @@
+micronaut:
+  url: http://localhost:8000
+  server:
+    port: 8081
+  application:
+    name: DynamoApi
+  datasource:
+    url: http://localhost:8000
+    domain: local
+    username: user
+    password: 'password'
